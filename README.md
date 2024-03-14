@@ -29,4 +29,4 @@ Ensure you have the following installed:
 
 ```bash
 git clone git@github.com:JebKlob6/Stanford_DeepLearning_Machine_Learning.git
-cd your-repo-name
+cd Stanford
