@@ -1,32 +1,63 @@
-# Machine Learning and Deep Learning Course Assignments
+# Machine Learning & Deep Learning Course Assignments
 
-Welcome to my repository of course assignments from the Machine Learning and Deep Learning courses offered by Deeplearning.io through Stanford Online. This repository is structured to reflect my learning journey through various advanced algorithms, supervised learning techniques, and unsupervised learning methods. Here, you'll find Jupyter Notebooks filled with implementations, experiments, and my personal insights.
+Welcome to my repository of Jupyter Lab notebooks, representing my journey through the Machine Learning and Deep Learning courses offered by Deeplearning.ai via Stanford Online. This collection includes assignments and projects from various segments of the curriculum, focusing on different aspects of machine and deep learning.
 
 ## Courses Overview
 
-This repository is organized into three main sections, each representing a course segment:
+This repository is organized according to the courses and their respective weeks, containing notebooks and datasets pertinent to each week's learning objectives.
 
-1. **Advanced Learning Algorithms**
-2. **Supervised Learning: Regression and Classification**
-3. **Unsupervised Learning: Reinforcement and Recommenders**
+- **Advanced Learning Algorithms**
+  - Week 1, 2: Exploration of advanced algorithms and their applications.
+- **Supervised Learning: Regression & Classification**
+  - Weeks 1 to 4: Diving deep into the nuances of supervised learning techniques, focusing on both regression and classification problems.
+- **Unsupervised Learning, Reinforcement Learning & Recommenders**
+  - Weeks 1 to 3: Uncovering the power of unsupervised learning methods, reinforcement learning techniques, and recommendation systems.
 
-Each course segment is further divided by weeks, with each week containing specific datasets used for assignments and explorations.
+## Repository Structure
+
+Each course is contained within its own directory, further subdivided by weeks. Each week's folder contains a `data` directory where datasets used in the notebooks are stored. Here's a quick look at the directory structure:
+
 
 ## Getting Started
 
-To run and test the notebooks in this repository, follow these steps:
+To run and test the Jupyter notebooks in this repository, you will need to set up your environment properly. 
 
 ### Prerequisites
 
-Ensure you have the following installed:
-- Python 3.8+
-- JupyterLab
-- Necessary Python packages (numpy, pandas, matplotlib, scikit-learn, etc.)
+- Anaconda or Miniconda installed on your system
 
-### Installation
+### Creating a Conda Environment
 
-1. Clone this repository to your local machine:
+1. Create the Conda environment by running the following command in your terminal:
 
-```bash
-git clone git@github.com:JebKlob6/Stanford_DeepLearning_Machine_Learning.git
-cd Stanford
+    ```
+    conda env create -f environment.yml
+    ```
+
+2. Activate the newly created Conda environment:
+
+    ```
+    conda activate ml-course
+    ```
+
+### Running the Notebooks
+
+1. Ensure your Conda environment is activated.
+2. Launch Jupyter Lab:
+
+    ```
+    jupyter notebook
+    ```
+
+3. Navigate to the desired course and week, and open the `.ipynb` file to start working on the notebooks.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Deeplearning.ai and Stanford Online for providing such comprehensive courses on machine learning and deep learning.
+- All datasets and resources used in these notebooks are credited to their respective owners and/or the course providers.
+
+Enjoy exploring and learning from these notebooks!
